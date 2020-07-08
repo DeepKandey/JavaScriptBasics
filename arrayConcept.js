@@ -31,5 +31,9 @@ const c1 = courses.find(function (course) { return course.name === 'b' })
 console.log(c1)
 
 console.log('-------')
-const c2 = courses.findIndex(function (course) { return course.name === 'b' })
+const c2 = courses.find(course => course.name === 'b')
 console.log(c2)
+
+console.log('-------')
+const c3 = courses.findIndex(function (course) { return course.name === 'b' })
+console.log(c3)
