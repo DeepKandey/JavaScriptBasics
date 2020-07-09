@@ -1,6 +1,5 @@
 
 let name = 'Deepak';
-
 const myAge = 30;
 
 console.log("Name:" + name);
@@ -18,11 +17,13 @@ console.log(user.name);
 
 // Arrays
 let language = []; // Earlier empty array declared
-language = ['Java', 'javascript']; // adding another defintion to the aaray
+language = ['Java', 'javascript']; // update array
 console.log("Array Example: \n" + language);
 console.log("Length of the array " + language.length);
 console.log("First element of the array " + language[0]);
 console.log("Third element of the array " + language[2]);
+
+// --------------Functions----------------------
 
 // functions
 function getName() {
@@ -33,10 +34,10 @@ getName();
 
 // param based function
 function greet(name, age) {
-
     console.log('Hello' + " " + name + ' with ' + age)
 }
 
+// function call
 greet('Deepak', 24)
 greet('Tom')
 
@@ -48,6 +49,7 @@ function add(n1, n2) {
 let sum = add(23, 34);
 console.log("Sum of the numbers: " + sum);
 
+// square of a number
 function sqrOfNumber(number) {
     let root = number * number;
     return root;

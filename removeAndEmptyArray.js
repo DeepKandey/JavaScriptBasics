@@ -26,11 +26,11 @@ console.log('--------')
 
 num = [1, 2, 3, 4, 5, 6]
 console.log(num)
-num.length = 0
+num.length = 0  // making array length 0
 console.log(num)
 console.log('--------')
 
-// using slice
+// using splice
 num = [1, 2, 3, 4, 5, 6]
 num.splice(0, num.length)
 console.log(num)
