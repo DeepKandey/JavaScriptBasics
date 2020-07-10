@@ -5,7 +5,7 @@ const cloneCircle = {
     }
 }
 
-//1 for in loop
+//1. for in loop
 const another = {};
 for (let key in cloneCircle)
     another[key] = cloneCircle[key];
