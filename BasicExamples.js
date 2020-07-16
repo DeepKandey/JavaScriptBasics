@@ -56,3 +56,9 @@ function sqrOfNumber(number) {
 }
 
 console.log("Square of the number: " + sqrOfNumber(2));
+
+// Random number
+console.log((22/7).toFixed(2));
+console.log(Math.floor(22/7));
+console.log(Math.ceil(22/7));
+console.log((Math.random())*10);

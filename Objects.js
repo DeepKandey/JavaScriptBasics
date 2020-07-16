@@ -7,7 +7,7 @@ let myYouTubeVideo = {
         console.log('javascript for absolute beginers')
     },
     thisFunction() { // another way to declare function
-        console.log(this.video)  // using this keyword to access object's element
+        console.log(this.video)  // using this keyword to access object's property
     }
 }
 
@@ -16,3 +16,4 @@ myYouTubeVideo.videoTopic();
 myYouTubeVideo.thisFunction();
 
 console.log(`Hey new video on ${myYouTubeVideo.title} by ${myYouTubeVideo.videoCreator}`);
+

@@ -34,7 +34,7 @@ console.log('-------')
 console.log(num.indexOf(5, num.indexOf(1) + 1))
 console.log('-------')
 
-// Array having ref type
+// Array having ref type (Objects)
 const courses = [{ id: 1, name: 'a' }, { id: 2, name: 'b' }]
 
 const c1 = courses.find(function (course) { return course.name === 'b' })
