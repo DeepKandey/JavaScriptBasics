@@ -1,5 +1,5 @@
 // clean localStorage
-localStorage.clear();
+//localStorage.clear();
 
 localStorage.setItem('hero', 'Thor');
 
