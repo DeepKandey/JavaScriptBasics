@@ -1,5 +1,4 @@
 console.log("----------Normal Object Creation-----------");
-// normal object create
 const circle1 = {
     radius: 1,
     isVisible: true,
@@ -7,7 +6,6 @@ const circle1 = {
         x: 1,
         y: 1
     },
-
     draw: function () {
         console.log("draw function")
     }
@@ -15,8 +13,8 @@ const circle1 = {
 
 console.log(circle1);
 
-console.log("\n----------Factory Function-----------");
-// object creation using Factory Function
+console.log("\n----------Factory Function object creation-----------");
+
 function createCircle(radius) {
     return {
         radius: radius,
@@ -30,7 +28,7 @@ const c1 = createCircle(1);
 console.log(c1);
 
 console.log("\n----------Constructor Function-----------");
-// constructor function example
+
 function CreateCircles(radius) {
     this.radius = radius;
     this.draw = function () {

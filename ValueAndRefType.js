@@ -1,4 +1,4 @@
-
+console.log("Value Type");
 let p = 10;
 let q = 20;
 p = 30;

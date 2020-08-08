@@ -30,7 +30,9 @@ class Teacher extends User {
 //const john = new User('John', 'Anderson', 34);
 const john = new Teacher('John', 'Anderson', 34,'python');
 console.log(john);
+
 console.log(john.getFullName());
+
 john.editName('Johny Anderson');
 console.log(john.getFullName());
 

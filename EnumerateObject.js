@@ -1,4 +1,3 @@
-
 const square = {
     radius: 1,
     draw() {
@@ -7,13 +6,13 @@ const square = {
 }
 
 // for in
-console.log('---For in------');
+console.log('---for in------');
 for (let key in square) {
-    console.log(key,square[key]);
+    console.log(key, square[key]);
 }
 
 // for of
-console.log('---For of------');
+console.log('---for of------');
 for (let key of Object.keys(square)) {
     console.log(key);
 }

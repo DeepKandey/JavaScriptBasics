@@ -1,9 +1,8 @@
 const circle = {
-    radius: 1,
-    color: 'red',
-    log() {
-        console.log('log', this.radius)
-    }
+                 radius: 1,
+                 color: 'red',
+                 log() {
+                         console.log('log', this.radius)  }
 }
 
 // add more properties in object

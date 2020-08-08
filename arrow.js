@@ -2,22 +2,16 @@
 //     return "Hey, there " + name + " !"
 // }
 
-const sayHello = (name) => `Hey, there ${name} !`
+const sayHello = (name) => `Hey, there ${name} !` // define function using arrow function
 
-console.log(sayHello("Deepak"))
+console.log(sayHello("Deepak"))  // function call
 
 const todos = [
-    {
-        isDone: false,
-    },
-    {
-        isDone: true,
-    },
-    {
-        isDone: false,
-    }]
+                 { isDone: false },
+                 { isDone: true },
+                 { isDone: false }
+              ]
 
-// filter example calling callback function or functional interface in Java
-const filterValues = todos.filter((todo) => todo.isDone == true)
+const filterValues = todos.filter((todo) => todo.isDone == true) // filter example calling callback function or functional interface in Java
 
 console.log(filterValues);

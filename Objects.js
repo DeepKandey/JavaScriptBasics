@@ -4,14 +4,15 @@ let myYouTubeVideo = {
     videoCreator: 'Deepak Rai',
     videoDescription: 'this is a video description and a long one',
     videoTopic: function () {
-        console.log('javascript for absolute beginers')
+        console.log('javascript for absolute beginners')
     },
-    thisFunction() { // another way to declare function
+    thisFunction() {              // another way to declare function
         console.log(this.video)  // using this keyword to access object's property
     }
 }
 
 console.log(myYouTubeVideo);
+
 myYouTubeVideo.videoTopic();
 myYouTubeVideo.thisFunction();
 
