@@ -385,7 +385,7 @@ function sides(literals, ...expressions) {
 sides`The area is: ${s1 * s2}.\nThe perimeter is: ${2 * (s1 + s2)}.`;
 console.log("*******************");
 
-function regexVar() {
+function regexVarForVowel() {
     /*
      * Declare a RegExp object variable named 're'
      * It must match a string that starts and ends with the same vowel (i.e., {a, e, i, o, u})
@@ -399,7 +399,7 @@ function regexVar() {
     return re;
 }
 
-console.log(`String matches the pattern? ${regexVar().test('aeioutap')}`);
+console.log(`String matches the pattern? ${regexVarForVowel().test('aeioutap')}`);
 console.log("*******************");
 
 function getDayName(dateString) {
@@ -412,3 +412,40 @@ function getDayName(dateString) {
     return dayName;
 }
 console.log(`Dayname by getDay(): ${getDayName('10/11/2009')}`);
+console.log("*******************");
+
+function regexVarForInitials() {
+    /*
+     * Declare a RegExp object variable named 're'
+     * It must match a string that starts with 'Mr.', 'Mrs.', 'Ms.', 'Dr.', or 'Er.', 
+     * followed by one or more letters.
+     */
+    let re = /^(Mr|Mrs|Ms|Dr|Er)\.[A-Za-z]+$/
+    
+    /*
+     * Do not remove the return statement
+     */
+    return re;
+}
+
+console.log(!!'Mrs.Y'.match(regexVarForInitials()));
+console.log("*******************");
+
+function regexVarForNumberOccurence() {
+    /*
+     * Declare a RegExp object variable named 're'
+     * It must match ALL occurrences of numbers in a string.
+     */
+    let re = /\d+/g
+    
+    /*
+     * Do not remove the return statement
+     */
+    return re;
+}
+
+const r = '102, 1948948 and 1.3 and 4.5'.match(regexVarForNumberOccurence());
+console.log("Occurence of numbers as below: ")
+for (const e of r) {
+    console.log(e);
+}
