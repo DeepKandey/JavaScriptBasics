@@ -1,6 +1,3 @@
-console.log(3 + 4, "hello", true);
-console.log('***************************')
-
 let password = 'kitty';
 
 if (password.length >= 6) {
