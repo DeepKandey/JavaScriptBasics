@@ -38,9 +38,9 @@ console.log(small_1);
 console.log(medium_1);
 console.log(large_1);
 console.log(veryHight);
-console.log(max);
+console.log(max); // undefined
 
-//3)-------------------------------------------
+//3.-------------------------------------------
 
 let populations_2 = [10000, 20000, 30000, [4000, 10000]];
 let [small_2, medium_2, large_2, [veryHight_2, max_2]] = populations_2;
